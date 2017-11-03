@@ -1,0 +1,2 @@
+[target.armv7a-cros-linux-gnueabi.dependencies.std]
+features = ["jemalloc", "panic-unwind"]

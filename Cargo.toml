@@ -1,0 +1,12 @@
+[package]
+name = "steamlink-sdk-rs-maybe"
+version = "0.1.0"
+authors = ["Zeke Sonxx <zeke@zekesonxx.com>"]
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
