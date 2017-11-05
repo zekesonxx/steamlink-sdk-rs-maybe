@@ -1,9 +1,9 @@
-# steamlink-sdk-rs-maybe
+# steamlink-sdk-rs-maybe SDL Test
 A basic proof of concept getting Rust code to run on the Steam Link.
 
-Tested on Rust 1.22 nightly. Requires rustc nightly and [Xargo](https://github.com/japaric/xargo). 
+Trying to get SDL to work. Renders, but input doesn't work.
 
-Haven't tried interfacing with OpenGL ES/SDL/Qt yet.
+Tested on Rust 1.22 nightly. Requires rustc nightly and [Xargo](https://github.com/japaric/xargo). 
 
 ## Basic steps
 1. Clone both this repo and [steamlink-sdk](https://github.com/ValveSoftware/steamlink-sdk)
@@ -35,4 +35,4 @@ Hello World!
 * `panic = "abort"` only for right now. Not sure how to get unwrap working yet.
 
 ## License
-Public domain / CC0.
+MIT. Based heavily on the rust-sdl2 gameoflife.rs demo.
